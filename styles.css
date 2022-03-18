@@ -74,3 +74,20 @@ p{
 .header row{
     margin-top: 60px;
 }
+.categories{
+    margin: 70px 0;
+}
+.colomn-3{
+    flex-basis: 30%;
+    min-width: 230px;
+    margin-bottom: 35px;
+}
+.colomn-3 img{
+    width: 100%;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
