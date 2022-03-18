@@ -143,5 +143,28 @@ h4{
     padding: 50px;
 }
 small{
-    color: palevioletred);
+    color: palevioletred;
+}
+.testimonial{
+    padding-top: 100px;
+}
+.testimonial .colomn-3{
+    text-align: center;
+    padding: 50px 20px;
+    box-shadow: 0 0 20px 0px bisque;
+    cursor: pointer;
+    transition: transform 0.6s;
+}
+.testimonial .colomn-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.testimonial .colomn-3:hover{
+    transform: translateY(-15px);
+}
+.testimonial .colomn-3 h3{
+    font-weight: 700;
+    color: cadetblue;
+    font-size: 20px;
 }
