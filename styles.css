@@ -91,3 +91,46 @@ p{
     padding-left: 30px;
     padding-right: 30px;
 }
+.colomn-4{
+    flex-basis: 25%;
+    padding: 8px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.colomn-4 img
+{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    margin: 0px auto 70px;
+    position: relative;
+    line-height: 60px;
+    color: fuchsia;
+}
+.title::after{
+    content: '';
+    background: cadetblue;
+    width: 70px;
+    height: 6px;
+    border-radius: 6px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h4{
+    color: black;
+    font-weight: normal;
+
+}
+.colomn-4 p{
+    font-size: 14px;
+}
+.rating .fa{
+    color: gold;
+}
+.colomn-4:hover{
+    transform: translateY(-7px);
+}
