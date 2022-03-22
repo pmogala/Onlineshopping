@@ -168,3 +168,65 @@ small{
     color: cadetblue;
     font-size: 20px;
 }
+.footer{
+    background: black;
+    color: blue;
+    font-size: 15px;
+    padding: 50px 0 30px;
+}
+.footer p{
+    color: greenyellow;
+}
+.footer h3{
+    color: white;
+    margin-bottom: 20px;
+}
+.footer-colomn-1, .footer-colomn-2, .footer-colomn-3{
+    min-width: 260px;
+    margin-bottom: 25px;
+}
+.footer-colomn-1{
+    flex-basis: 30%;
+}
+.footer-colomn-2{
+    flex-basis: 1;
+    text-align: center;
+}
+.footer-colomn-2 img{
+    width: 150px;
+    margin-bottom: 18px;
+}
+.footer-colomn-3{
+    flex-basis: 15px;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.menu-icon{
+    width: 30px;
+    margin-left: 15px;
+    display: none;
+}
+@media only screen and (max-width: 900px){
+    nav  ul{
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        background: pink;
+        width: 100%;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 52px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    nav ul li a{
+        color: white;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+}
