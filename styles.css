@@ -205,16 +205,18 @@ ul{
 }
 .menu-icon{
     width: 30px;
-    margin-left: 15px;
+    margin-left: 20px;
     display: none;
 }
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 700px){
     nav  ul{
         position: absolute;
         top: 60px;
         left: 0px;
         background: pink;
         width: 100%;
+        overflow: hidden;
+        transition: max-height 0.7s;
     }
     nav ul li{
         display: block;
@@ -229,4 +231,13 @@ ul{
         display: block;
         cursor: pointer;
     }
+}
+@media only screen and (max-width: 550px){
+    .row{
+        text-align: center;
+    }
+    .colomn-2,.colomn-3{
+        flex-basis: 100%;
+    }
+    
 }
